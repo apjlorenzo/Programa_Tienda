@@ -16,6 +16,7 @@ namespace Programa_Tienda
             Console.WriteLine("3.Realizar ventas.");
             Console.WriteLine("5.Salir.");
             Console.Write("Escriba una opción: ");
+            console.WriteLine("PANZUDAAAAAAAA")
         }
         public void MenuProductos()
         {
