@@ -10,17 +10,19 @@ namespace Programa_Tienda
     {
         public void MenuPrincipal()
         {
+            Console.Clear();
             Console.WriteLine("==================================");
             Console.WriteLine(":::::::MENU:::::::");
             Console.WriteLine("1.Gestionar productos.");
             Console.WriteLine("2.Gestionar clientes.");
             Console.WriteLine("3.Realizar ventas.");
-            Console.WriteLine("5.Salir.");
+            Console.WriteLine("4.Salir.");
             Console.WriteLine("==================================\n");
             Console.Write("Escriba una opción: ");
         }
         public void MenuProductos()
         {
+            Console.Clear();
             Console.WriteLine("==================================");
             Console.WriteLine(":::::::MENU PRODUCTOS:::::::");
             Console.WriteLine("1.Agregar un producto.");
@@ -32,6 +34,7 @@ namespace Programa_Tienda
         }
         public void MenuCliente()
         {
+            Console.Clear();
             Console.WriteLine("==================================");
             Console.WriteLine(":::::::MENU CLIENTES:::::::");
             Console.WriteLine("1.Agregar un cliente.");
@@ -41,5 +44,6 @@ namespace Programa_Tienda
             Console.WriteLine("==================================\n");
             Console.Write("Escriba una opción: ");
         }
+
     }
 }
