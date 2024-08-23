@@ -12,5 +12,13 @@ namespace Programa_Tienda
         public string NombreCliente { get; set; }
         public string NombreProducto { get; set; }
         public double Total { get; set; }
+
+        public Venta(int id, string nombreCliente, string nombreProducto, double total)
+        {
+            Id = id;
+            NombreCliente = nombreCliente;
+            NombreProducto = nombreProducto;
+            Total = total;
+        }
     }
 }
